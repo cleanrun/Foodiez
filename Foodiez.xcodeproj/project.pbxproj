@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC11AC692592406200D5C993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC682592406200D5C993 /* AppDelegate.swift */; };
+		EC11AC6B2592406200D5C993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC6A2592406200D5C993 /* SceneDelegate.swift */; };
+		EC11AC6D2592406200D5C993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC6C2592406200D5C993 /* ContentView.swift */; };
+		EC11AC702592406200D5C993 /* Foodiez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC6E2592406200D5C993 /* Foodiez.xcdatamodeld */; };
+		EC11AC722592406400D5C993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC11AC712592406400D5C993 /* Assets.xcassets */; };
+		EC11AC752592406400D5C993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC11AC742592406400D5C993 /* Preview Assets.xcassets */; };
+		EC11AC782592406400D5C993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11AC762592406400D5C993 /* LaunchScreen.storyboard */; };
+		EC11AC872592422800D5C993 /* OnboardingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC862592422800D5C993 /* OnboardingParentView.swift */; };
+		EC11AC8B2592423800D5C993 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC8A2592423800D5C993 /* OnboardingPageView.swift */; };
+		EC11AC8E2592474F00D5C993 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */; };
+		EC11AC9125924B8500D5C993 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC9025924B8500D5C993 /* Configs.swift */; };
+		EC11AC962592565B00D5C993 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC952592565B00D5C993 /* LoginView.swift */; };
+		EC11AC9A259257BE00D5C993 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC99259257BE00D5C993 /* LoginVM.swift */; };
+		EC11AC9E259259F000D5C993 /* FDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC9D259259F000D5C993 /* FDTextField.swift */; };
+		EC11ACA22592641700D5C993 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACA12592641700D5C993 /* SignupView.swift */; };
+		EC11ACA52592645000D5C993 /* SignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACA42592645000D5C993 /* SignupVM.swift */; };
+		EC11ACA92592684E00D5C993 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACA82592684E00D5C993 /* HomeView.swift */; };
+		EC11ACAE2592696A00D5C993 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACAD2592696A00D5C993 /* HomeTabView.swift */; };
+		ECA5FCF625926EB50029A49B /* DiscoverTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */; };
+		ECA5FCF925926EC50029A49B /* FavoriteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */; };
+		ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCFB25926ED00029A49B /* AccountTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC11AC652592406200D5C993 /* Foodiez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodiez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC11AC682592406200D5C993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC11AC6A2592406200D5C993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC11AC6C2592406200D5C993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC11AC6F2592406200D5C993 /* Foodiez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodiez.xcdatamodel; sourceTree = "<group>"; };
+		EC11AC712592406400D5C993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC11AC742592406400D5C993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC11AC772592406400D5C993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC11AC792592406400D5C993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC11AC862592422800D5C993 /* OnboardingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingParentView.swift; sourceTree = "<group>"; };
+		EC11AC8A2592423800D5C993 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		EC11AC9025924B8500D5C993 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		EC11AC952592565B00D5C993 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC11AC99259257BE00D5C993 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		EC11AC9D259259F000D5C993 /* FDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTextField.swift; sourceTree = "<group>"; };
+		EC11ACA12592641700D5C993 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		EC11ACA42592645000D5C993 /* SignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVM.swift; sourceTree = "<group>"; };
+		EC11ACA82592684E00D5C993 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC11ACAD2592696A00D5C993 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTabView.swift; sourceTree = "<group>"; };
+		ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabView.swift; sourceTree = "<group>"; };
+		ECA5FCFB25926ED00029A49B /* AccountTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC11AC622592406200D5C993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC11AC5C2592406200D5C993 = {
+			isa = PBXGroup;
+			children = (
+				EC11AC672592406200D5C993 /* Foodiez */,
+				EC11AC662592406200D5C993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC11AC662592406200D5C993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC652592406200D5C993 /* Foodiez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC11AC672592406200D5C993 /* Foodiez */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC80259240F500D5C993 /* Life Cycle */,
+				EC11AC832592411800D5C993 /* Models */,
+				EC11AC822592410800D5C993 /* Utils */,
+				EC11AC81259240FF00D5C993 /* Views */,
+				EC11AC712592406400D5C993 /* Assets.xcassets */,
+				EC11AC792592406400D5C993 /* Info.plist */,
+				EC11AC6E2592406200D5C993 /* Foodiez.xcdatamodeld */,
+				EC11AC732592406400D5C993 /* Preview Content */,
+			);
+			path = Foodiez;
+			sourceTree = "<group>";
+		};
+		EC11AC732592406400D5C993 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC742592406400D5C993 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC11AC80259240F500D5C993 /* Life Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC6A2592406200D5C993 /* SceneDelegate.swift */,
+				EC11AC682592406200D5C993 /* AppDelegate.swift */,
+			);
+			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		EC11AC81259240FF00D5C993 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC11ACA72592683700D5C993 /* Home */,
+				EC11AC85259241E700D5C993 /* Onboarding */,
+				EC11AC932592564000D5C993 /* Authentication */,
+				EC11AC842592411F00D5C993 /* Splash Screen */,
+				EC11AC9C259259C700D5C993 /* Custom Views */,
+				EC11AC6C2592406200D5C993 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC11AC822592410800D5C993 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */,
+				EC11AC9025924B8500D5C993 /* Configs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC11AC832592411800D5C993 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC11AC842592411F00D5C993 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC762592406400D5C993 /* LaunchScreen.storyboard */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		EC11AC85259241E700D5C993 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC862592422800D5C993 /* OnboardingParentView.swift */,
+				EC11AC8A2592423800D5C993 /* OnboardingPageView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EC11AC932592564000D5C993 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EC11ACA0259263C500D5C993 /* Signup */,
+				EC11AC942592565000D5C993 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EC11AC942592565000D5C993 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC952592565B00D5C993 /* LoginView.swift */,
+				EC11AC99259257BE00D5C993 /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EC11AC9C259259C700D5C993 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC11AC9D259259F000D5C993 /* FDTextField.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		EC11ACA0259263C500D5C993 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				EC11ACA12592641700D5C993 /* SignupView.swift */,
+				EC11ACA42592645000D5C993 /* SignupVM.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		EC11ACA72592683700D5C993 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC11ACAC2592695500D5C993 /* Tabs */,
+				EC11ACA82592684E00D5C993 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC11ACAC2592695500D5C993 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				EC11ACAD2592696A00D5C993 /* HomeTabView.swift */,
+				ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */,
+				ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */,
+				ECA5FCFB25926ED00029A49B /* AccountTabView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC11AC642592406200D5C993 /* Foodiez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC11AC7C2592406500D5C993 /* Build configuration list for PBXNativeTarget "Foodiez" */;
+			buildPhases = (
+				EC11AC612592406200D5C993 /* Sources */,
+				EC11AC622592406200D5C993 /* Frameworks */,
+				EC11AC632592406200D5C993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodiez;
+			productName = Foodiez;
+			productReference = EC11AC652592406200D5C993 /* Foodiez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC11AC5D2592406200D5C993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EC11AC642592406200D5C993 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EC11AC602592406200D5C993 /* Build configuration list for PBXProject "Foodiez" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC11AC5C2592406200D5C993;
+			productRefGroup = EC11AC662592406200D5C993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC11AC642592406200D5C993 /* Foodiez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC11AC632592406200D5C993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC11AC782592406400D5C993 /* LaunchScreen.storyboard in Resources */,
+				EC11AC752592406400D5C993 /* Preview Assets.xcassets in Resources */,
+				EC11AC722592406400D5C993 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC11AC612592406200D5C993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC11ACA22592641700D5C993 /* SignupView.swift in Sources */,
+				ECA5FCF625926EB50029A49B /* DiscoverTabView.swift in Sources */,
+				ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */,
+				EC11AC8B2592423800D5C993 /* OnboardingPageView.swift in Sources */,
+				EC11AC9125924B8500D5C993 /* Configs.swift in Sources */,
+				EC11AC8E2592474F00D5C993 /* ViewExtensions.swift in Sources */,
+				EC11AC962592565B00D5C993 /* LoginView.swift in Sources */,
+				EC11AC9A259257BE00D5C993 /* LoginVM.swift in Sources */,
+				EC11AC872592422800D5C993 /* OnboardingParentView.swift in Sources */,
+				EC11AC702592406200D5C993 /* Foodiez.xcdatamodeld in Sources */,
+				EC11AC692592406200D5C993 /* AppDelegate.swift in Sources */,
+				EC11AC9E259259F000D5C993 /* FDTextField.swift in Sources */,
+				EC11ACA52592645000D5C993 /* SignupVM.swift in Sources */,
+				EC11ACA92592684E00D5C993 /* HomeView.swift in Sources */,
+				EC11ACAE2592696A00D5C993 /* HomeTabView.swift in Sources */,
+				ECA5FCF925926EC50029A49B /* FavoriteTabView.swift in Sources */,
+				EC11AC6B2592406200D5C993 /* SceneDelegate.swift in Sources */,
+				EC11AC6D2592406200D5C993 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC11AC762592406400D5C993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC11AC772592406400D5C993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC11AC7A2592406400D5C993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC11AC7B2592406400D5C993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC11AC7D2592406500D5C993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Foodiez/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J2XDDYT2W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Foodiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.Foodiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC11AC7E2592406500D5C993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Foodiez/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J2XDDYT2W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Foodiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.Foodiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC11AC602592406200D5C993 /* Build configuration list for PBXProject "Foodiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC11AC7A2592406400D5C993 /* Debug */,
+				EC11AC7B2592406400D5C993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC11AC7C2592406500D5C993 /* Build configuration list for PBXNativeTarget "Foodiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC11AC7D2592406500D5C993 /* Debug */,
+				EC11AC7E2592406500D5C993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC11AC6E2592406200D5C993 /* Foodiez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC11AC6F2592406200D5C993 /* Foodiez.xcdatamodel */,
+			);
+			currentVersion = EC11AC6F2592406200D5C993 /* Foodiez.xcdatamodel */;
+			path = Foodiez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC11AC5D2592406200D5C993 /* Project object */;
+}
