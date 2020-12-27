@@ -9,7 +9,14 @@ import SwiftUI
 
 struct DiscoverTabView: View {
     var body: some View {
-        Text("Discover Tab")
+        VStack {
+            Text("Discover")
+                .font(Font.custom("Arial", size: 30))
+                .fontWeight(.bold)
+            
+            Spacer()
+                
+        }
     }
 }
 

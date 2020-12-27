@@ -25,9 +25,21 @@
 		EC11ACA52592645000D5C993 /* SignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACA42592645000D5C993 /* SignupVM.swift */; };
 		EC11ACA92592684E00D5C993 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACA82592684E00D5C993 /* HomeView.swift */; };
 		EC11ACAE2592696A00D5C993 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11ACAD2592696A00D5C993 /* HomeTabView.swift */; };
+		EC41592725985188008517A7 /* HomeTabVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41592625985188008517A7 /* HomeTabVM.swift */; };
+		EC41592A25985E84008517A7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41592925985E84008517A7 /* Category.swift */; };
+		EC41592D25985ECD008517A7 /* MealDealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41592C25985ECD008517A7 /* MealDealCell.swift */; };
+		EC41593025985EF7008517A7 /* MealDealVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41592F25985EF7008517A7 /* MealDealVM.swift */; };
+		EC41593525986E7D008517A7 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593425986E7D008517A7 /* RestaurantDetailView.swift */; };
+		EC41593825986FE6008517A7 /* RestaurantDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593725986FE6008517A7 /* RestaurantDetailVM.swift */; };
+		EC41593B25987088008517A7 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593A25987088008517A7 /* Review.swift */; };
+		EC815B362598425000A572E5 /* FoodPopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B352598425000A572E5 /* FoodPopularCell.swift */; };
+		EC815B392598496500A572E5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B382598496500A572E5 /* Restaurant.swift */; };
+		EC815B3D25984A7B00A572E5 /* FoodPopularVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B3C25984A7B00A572E5 /* FoodPopularVM.swift */; };
 		ECA5FCF625926EB50029A49B /* DiscoverTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */; };
 		ECA5FCF925926EC50029A49B /* FavoriteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */; };
 		ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCFB25926ED00029A49B /* AccountTabView.swift */; };
+		ECB2F11D25987A9B00FC449A /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F11C25987A9B00FC449A /* ReviewCell.swift */; };
+		ECB2F12125987AD800FC449A /* ReviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F12025987AD800FC449A /* ReviewVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,9 +63,21 @@
 		EC11ACA42592645000D5C993 /* SignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVM.swift; sourceTree = "<group>"; };
 		EC11ACA82592684E00D5C993 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC11ACAD2592696A00D5C993 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		EC41592625985188008517A7 /* HomeTabVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabVM.swift; sourceTree = "<group>"; };
+		EC41592925985E84008517A7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Foodiez/Model/Category.swift; sourceTree = SOURCE_ROOT; };
+		EC41592C25985ECD008517A7 /* MealDealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDealCell.swift; sourceTree = "<group>"; };
+		EC41592F25985EF7008517A7 /* MealDealVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDealVM.swift; sourceTree = "<group>"; };
+		EC41593425986E7D008517A7 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		EC41593725986FE6008517A7 /* RestaurantDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailVM.swift; sourceTree = "<group>"; };
+		EC41593A25987088008517A7 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = Foodiez/Model/Review.swift; sourceTree = SOURCE_ROOT; };
+		EC815B352598425000A572E5 /* FoodPopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPopularCell.swift; sourceTree = "<group>"; };
+		EC815B382598496500A572E5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = Foodiez/Model/Restaurant.swift; sourceTree = SOURCE_ROOT; };
+		EC815B3C25984A7B00A572E5 /* FoodPopularVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPopularVM.swift; sourceTree = "<group>"; };
 		ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTabView.swift; sourceTree = "<group>"; };
 		ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabView.swift; sourceTree = "<group>"; };
 		ECA5FCFB25926ED00029A49B /* AccountTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTabView.swift; sourceTree = "<group>"; };
+		ECB2F11C25987A9B00FC449A /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		ECB2F12025987AD800FC449A /* ReviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				EC11AC80259240F500D5C993 /* Life Cycle */,
-				EC11AC832592411800D5C993 /* Models */,
+				EC41593D25987099008517A7 /* Model */,
 				EC11AC822592410800D5C993 /* Utils */,
 				EC11AC81259240FF00D5C993 /* Views */,
 				EC11AC712592406400D5C993 /* Assets.xcassets */,
@@ -118,6 +142,7 @@
 		EC11AC81259240FF00D5C993 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC41593325986E5F008517A7 /* Restaurant Detail */,
 				EC11ACA72592683700D5C993 /* Home */,
 				EC11AC85259241E700D5C993 /* Onboarding */,
 				EC11AC932592564000D5C993 /* Authentication */,
@@ -135,13 +160,6 @@
 				EC11AC9025924B8500D5C993 /* Configs.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		EC11AC832592411800D5C993 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		EC11AC842592411F00D5C993 /* Splash Screen */ = {
@@ -208,12 +226,86 @@
 		EC11ACAC2592695500D5C993 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				EC11ACAD2592696A00D5C993 /* HomeTabView.swift */,
-				ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */,
-				ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */,
-				ECA5FCFB25926ED00029A49B /* AccountTabView.swift */,
+				ECC551F12598AB470015AC11 /* Account */,
+				ECC551F02598AB3F0015AC11 /* Favorite */,
+				ECC551EF2598AB380015AC11 /* Discover */,
+				EC815B342598421F00A572E5 /* Home */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		EC41593325986E5F008517A7 /* Restaurant Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ECB2F11B25987A8E00FC449A /* Cells */,
+				EC41593425986E7D008517A7 /* RestaurantDetailView.swift */,
+				EC41593725986FE6008517A7 /* RestaurantDetailVM.swift */,
+			);
+			path = "Restaurant Detail";
+			sourceTree = "<group>";
+		};
+		EC41593D25987099008517A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC815B382598496500A572E5 /* Restaurant.swift */,
+				EC41592925985E84008517A7 /* Category.swift */,
+				EC41593A25987088008517A7 /* Review.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC815B342598421F00A572E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC815B3B25984A6400A572E5 /* Cells */,
+				EC11ACAD2592696A00D5C993 /* HomeTabView.swift */,
+				EC41592625985188008517A7 /* HomeTabVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC815B3B25984A6400A572E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC815B352598425000A572E5 /* FoodPopularCell.swift */,
+				EC815B3C25984A7B00A572E5 /* FoodPopularVM.swift */,
+				EC41592C25985ECD008517A7 /* MealDealCell.swift */,
+				EC41592F25985EF7008517A7 /* MealDealVM.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ECB2F11B25987A8E00FC449A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ECB2F11C25987A9B00FC449A /* ReviewCell.swift */,
+				ECB2F12025987AD800FC449A /* ReviewVM.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ECC551EF2598AB380015AC11 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5FCF525926EB50029A49B /* DiscoverTabView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		ECC551F02598AB3F0015AC11 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		ECC551F12598AB470015AC11 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5FCFB25926ED00029A49B /* AccountTabView.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,23 +378,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC815B392598496500A572E5 /* Restaurant.swift in Sources */,
 				EC11ACA22592641700D5C993 /* SignupView.swift in Sources */,
 				ECA5FCF625926EB50029A49B /* DiscoverTabView.swift in Sources */,
+				ECB2F11D25987A9B00FC449A /* ReviewCell.swift in Sources */,
+				EC815B3D25984A7B00A572E5 /* FoodPopularVM.swift in Sources */,
 				ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */,
+				EC41592725985188008517A7 /* HomeTabVM.swift in Sources */,
+				EC41593025985EF7008517A7 /* MealDealVM.swift in Sources */,
+				EC41593825986FE6008517A7 /* RestaurantDetailVM.swift in Sources */,
 				EC11AC8B2592423800D5C993 /* OnboardingPageView.swift in Sources */,
+				EC41593B25987088008517A7 /* Review.swift in Sources */,
 				EC11AC9125924B8500D5C993 /* Configs.swift in Sources */,
 				EC11AC8E2592474F00D5C993 /* ViewExtensions.swift in Sources */,
 				EC11AC962592565B00D5C993 /* LoginView.swift in Sources */,
 				EC11AC9A259257BE00D5C993 /* LoginVM.swift in Sources */,
+				EC41592A25985E84008517A7 /* Category.swift in Sources */,
+				ECB2F12125987AD800FC449A /* ReviewVM.swift in Sources */,
 				EC11AC872592422800D5C993 /* OnboardingParentView.swift in Sources */,
 				EC11AC702592406200D5C993 /* Foodiez.xcdatamodeld in Sources */,
 				EC11AC692592406200D5C993 /* AppDelegate.swift in Sources */,
+				EC41593525986E7D008517A7 /* RestaurantDetailView.swift in Sources */,
 				EC11AC9E259259F000D5C993 /* FDTextField.swift in Sources */,
 				EC11ACA52592645000D5C993 /* SignupVM.swift in Sources */,
 				EC11ACA92592684E00D5C993 /* HomeView.swift in Sources */,
+				EC41592D25985ECD008517A7 /* MealDealCell.swift in Sources */,
 				EC11ACAE2592696A00D5C993 /* HomeTabView.swift in Sources */,
 				ECA5FCF925926EC50029A49B /* FavoriteTabView.swift in Sources */,
 				EC11AC6B2592406200D5C993 /* SceneDelegate.swift in Sources */,
+				EC815B362598425000A572E5 /* FoodPopularCell.swift in Sources */,
 				EC11AC6D2592406200D5C993 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
