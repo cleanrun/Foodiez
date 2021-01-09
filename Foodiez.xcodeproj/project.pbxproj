@@ -32,6 +32,7 @@
 		EC41593525986E7D008517A7 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593425986E7D008517A7 /* RestaurantDetailView.swift */; };
 		EC41593825986FE6008517A7 /* RestaurantDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593725986FE6008517A7 /* RestaurantDetailVM.swift */; };
 		EC41593B25987088008517A7 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41593A25987088008517A7 /* Review.swift */; };
+		EC62DA5625AA00890090D27F /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC62DA5525AA00890090D27F /* Discover.swift */; };
 		EC815B362598425000A572E5 /* FoodPopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B352598425000A572E5 /* FoodPopularCell.swift */; };
 		EC815B392598496500A572E5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B382598496500A572E5 /* Restaurant.swift */; };
 		EC815B3D25984A7B00A572E5 /* FoodPopularVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC815B3C25984A7B00A572E5 /* FoodPopularVM.swift */; };
@@ -70,6 +71,7 @@
 		EC41593425986E7D008517A7 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
 		EC41593725986FE6008517A7 /* RestaurantDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailVM.swift; sourceTree = "<group>"; };
 		EC41593A25987088008517A7 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = Foodiez/Model/Review.swift; sourceTree = SOURCE_ROOT; };
+		EC62DA5525AA00890090D27F /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 		EC815B352598425000A572E5 /* FoodPopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPopularCell.swift; sourceTree = "<group>"; };
 		EC815B382598496500A572E5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = Foodiez/Model/Restaurant.swift; sourceTree = SOURCE_ROOT; };
 		EC815B3C25984A7B00A572E5 /* FoodPopularVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPopularVM.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				EC815B382598496500A572E5 /* Restaurant.swift */,
 				EC41592925985E84008517A7 /* Category.swift */,
 				EC41593A25987088008517A7 /* Review.swift */,
+				EC62DA5525AA00890090D27F /* Discover.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				ECB2F11D25987A9B00FC449A /* ReviewCell.swift in Sources */,
 				EC815B3D25984A7B00A572E5 /* FoodPopularVM.swift in Sources */,
 				ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */,
+				EC62DA5625AA00890090D27F /* Discover.swift in Sources */,
 				EC41592725985188008517A7 /* HomeTabVM.swift in Sources */,
 				EC41593025985EF7008517A7 /* MealDealVM.swift in Sources */,
 				EC41593825986FE6008517A7 /* RestaurantDetailVM.swift in Sources */,
@@ -551,6 +555,7 @@
 				DEVELOPMENT_TEAM = 6J2XDDYT2W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Foodiez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,6 +577,7 @@
 				DEVELOPMENT_TEAM = 6J2XDDYT2W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Foodiez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
