@@ -17,4 +17,6 @@ class Configs {
     static let CLR_GRAY_2: String = "#9D9D9D"
     static let CLR_LIGHT_GRAY: String = "#E4E4E4"
     static let CLR_CORAL: String = "#EDAA9B"
+    static let CLR_PALE_BLUE: String = "#53BCBE"
+    static let CLR_PALE_RED: String = "#E9ADA4"
 }

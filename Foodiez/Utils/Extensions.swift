@@ -69,3 +69,10 @@ extension UIScreen{
    static let screenHeight = UIScreen.main.bounds.size.height
    static let screenSize = UIScreen.main.bounds.size
 }
+
+// MARK: Double Extension
+extension Double {
+    public static func random(lower: Double = 0, upper: Double = 100) -> Double {
+        return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
+    }
+}

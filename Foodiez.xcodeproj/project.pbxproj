@@ -16,7 +16,7 @@
 		EC11AC782592406400D5C993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11AC762592406400D5C993 /* LaunchScreen.storyboard */; };
 		EC11AC872592422800D5C993 /* OnboardingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC862592422800D5C993 /* OnboardingParentView.swift */; };
 		EC11AC8B2592423800D5C993 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC8A2592423800D5C993 /* OnboardingPageView.swift */; };
-		EC11AC8E2592474F00D5C993 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */; };
+		EC11AC8E2592474F00D5C993 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC8D2592474F00D5C993 /* Extensions.swift */; };
 		EC11AC9125924B8500D5C993 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC9025924B8500D5C993 /* Configs.swift */; };
 		EC11AC962592565B00D5C993 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC952592565B00D5C993 /* LoginView.swift */; };
 		EC11AC9A259257BE00D5C993 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11AC99259257BE00D5C993 /* LoginVM.swift */; };
@@ -41,6 +41,9 @@
 		ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA5FCFB25926ED00029A49B /* AccountTabView.swift */; };
 		ECB2F11D25987A9B00FC449A /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F11C25987A9B00FC449A /* ReviewCell.swift */; };
 		ECB2F12125987AD800FC449A /* ReviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2F12025987AD800FC449A /* ReviewVM.swift */; };
+		ECBCD0C525AC7B230078136C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCD0C425AC7B230078136C /* FavoriteCell.swift */; };
+		ECBCD0C925AC7D860078136C /* FavoriteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCD0C825AC7D860078136C /* FavoriteVM.swift */; };
+		ECBCD0CE25AC8E2C0078136C /* FDDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBCD0CD25AC8E2C0078136C /* FDDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +58,7 @@
 		EC11AC792592406400D5C993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC11AC862592422800D5C993 /* OnboardingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingParentView.swift; sourceTree = "<group>"; };
 		EC11AC8A2592423800D5C993 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
-		EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		EC11AC8D2592474F00D5C993 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EC11AC9025924B8500D5C993 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
 		EC11AC952592565B00D5C993 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EC11AC99259257BE00D5C993 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
@@ -80,6 +83,9 @@
 		ECA5FCFB25926ED00029A49B /* AccountTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTabView.swift; sourceTree = "<group>"; };
 		ECB2F11C25987A9B00FC449A /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		ECB2F12025987AD800FC449A /* ReviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVM.swift; sourceTree = "<group>"; };
+		ECBCD0C425AC7B230078136C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		ECBCD0C825AC7D860078136C /* FavoriteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVM.swift; sourceTree = "<group>"; };
+		ECBCD0CD25AC8E2C0078136C /* FDDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDDivider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 		EC11AC81259240FF00D5C993 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ECBCD0CC25AC8E190078136C /* Misc */,
 				EC41593325986E5F008517A7 /* Restaurant Detail */,
 				EC11ACA72592683700D5C993 /* Home */,
 				EC11AC85259241E700D5C993 /* Onboarding */,
@@ -158,7 +165,7 @@
 		EC11AC822592410800D5C993 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				EC11AC8D2592474F00D5C993 /* ViewExtensions.swift */,
+				EC11AC8D2592474F00D5C993 /* Extensions.swift */,
 				EC11AC9025924B8500D5C993 /* Configs.swift */,
 			);
 			path = Utils;
@@ -287,6 +294,23 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		ECBCD0C325AC7B120078136C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCD0C425AC7B230078136C /* FavoriteCell.swift */,
+				ECBCD0C825AC7D860078136C /* FavoriteVM.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ECBCD0CC25AC8E190078136C /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCD0CD25AC8E2C0078136C /* FDDivider.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		ECC551EF2598AB380015AC11 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +322,7 @@
 		ECC551F02598AB3F0015AC11 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				ECBCD0C325AC7B120078136C /* Cells */,
 				ECA5FCF825926EC50029A49B /* FavoriteTabView.swift */,
 			);
 			path = Favorite;
@@ -389,16 +414,19 @@
 				ECA5FCFC25926ED00029A49B /* AccountTabView.swift in Sources */,
 				EC62DA5625AA00890090D27F /* Discover.swift in Sources */,
 				EC41592725985188008517A7 /* HomeTabVM.swift in Sources */,
+				ECBCD0CE25AC8E2C0078136C /* FDDivider.swift in Sources */,
 				EC41593025985EF7008517A7 /* MealDealVM.swift in Sources */,
 				EC41593825986FE6008517A7 /* RestaurantDetailVM.swift in Sources */,
 				EC11AC8B2592423800D5C993 /* OnboardingPageView.swift in Sources */,
 				EC41593B25987088008517A7 /* Review.swift in Sources */,
 				EC11AC9125924B8500D5C993 /* Configs.swift in Sources */,
-				EC11AC8E2592474F00D5C993 /* ViewExtensions.swift in Sources */,
+				ECBCD0C525AC7B230078136C /* FavoriteCell.swift in Sources */,
+				EC11AC8E2592474F00D5C993 /* Extensions.swift in Sources */,
 				EC11AC962592565B00D5C993 /* LoginView.swift in Sources */,
 				EC11AC9A259257BE00D5C993 /* LoginVM.swift in Sources */,
 				EC41592A25985E84008517A7 /* Category.swift in Sources */,
 				ECB2F12125987AD800FC449A /* ReviewVM.swift in Sources */,
+				ECBCD0C925AC7D860078136C /* FavoriteVM.swift in Sources */,
 				EC11AC872592422800D5C993 /* OnboardingParentView.swift in Sources */,
 				EC11AC702592406200D5C993 /* Foodiez.xcdatamodeld in Sources */,
 				EC11AC692592406200D5C993 /* AppDelegate.swift in Sources */,

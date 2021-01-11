@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeTabView: View {
     
-    @ObservedObject var homeTabVM = HomeTabVM()
+    @StateObject var homeTabVM = HomeTabVM()
     
     var body: some View {
         ScrollView {
