@@ -63,6 +63,21 @@ extension Color {
     }
 }
 
+// MARK: View Extension
+extension View {
+    func goToLogin() {
+        //let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        if let windowSceneDelegate  = scene?.delegate as? SceneDelegate {
+            let window = UIWindow(windowScene: scene!)
+            window.rootViewController = UIHostingController(rootView: LoginView())
+            windowSceneDelegate.window = window
+            window.makeKeyAndVisible()
+        }
+    }
+}
+
 // MARK: UIScreen Extension
 extension UIScreen{
    static let screenWidth = UIScreen.main.bounds.size.width

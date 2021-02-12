@@ -7,11 +7,12 @@
 
 import UIKit
 import SwiftUI
+import CoreData
+import NavigationStack
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -20,15 +21,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Get the managed object context from the shared persistent container.
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
-        // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
-        // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let contentView = ContentView().environment(\.managedObjectContext, context)
-
+        //let onboardingStatus = UserDefaults.standard.bool(forKey: "onboardingStatus")
+        
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
+            setRootView(windowScene, with: context, onboardingStatus: false)
+        }
+    }
+    
+    func setRootView(_ windowScene: UIWindowScene, with context: NSManagedObjectContext, onboardingStatus: Bool) {
+        if onboardingStatus {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
+            // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
+            let onboardingView = OnboardingParentView().environment(\.managedObjectContext, context)
+            window.rootViewController = UIHostingController(rootView: onboardingView)
+            self.window = window
+            window.makeKeyAndVisible()
+        } else {
+            let window = UIWindow(windowScene: windowScene)
+            // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
+            // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
+            let loginView = LoginView().environment(\.managedObjectContext, context)
+            window.rootViewController = UIHostingController(rootView: loginView)
             self.window = window
             window.makeKeyAndVisible()
         }
@@ -64,7 +79,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
 
 }
 

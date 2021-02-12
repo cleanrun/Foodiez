@@ -21,13 +21,15 @@ struct OnboardingParentView: View {
                 }.tabViewStyle(PageTabViewStyle())
                 
                 Button("Login") {
-
+                    self.goToLogin()
                 }.buttonStyle(WhiteRectangleButtonStyle())
                 .frame(height: 50, alignment: .center)
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 90, trailing: 20))
             }
         }
     }
+    
+    
 }
 
 struct OnboardingParentView_Previews: PreviewProvider {

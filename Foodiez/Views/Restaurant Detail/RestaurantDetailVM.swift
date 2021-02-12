@@ -18,8 +18,8 @@ class RestaurantDetailVM: ObservableObject {
     
     func setReviews() {
         let reviews = Review.all()
-        for _ in 1...3 {
-            self.reviews.append(reviews.randomElement()!)
+        for index in 1...3 {
+            self.reviews.append(reviews[index])
         }
     }
 }
